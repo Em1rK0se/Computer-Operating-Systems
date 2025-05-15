@@ -1,0 +1,19 @@
+# Makefile for 820210309_market_sim project
+
+CC = gcc
+CFLAGS = -Wall -Wextra -pthread
+TARGET = market_sim
+SRC = 820210309_market_sim.c
+OBJ = $(SRC:.c=.o)
+HEADER = 820210309_market_sim.h
+
+all: $(TARGET)
+
+$(TARGET): $(SRC) $(HEADER)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
+
+clean:
+	rm -f $(TARGET) *.o log.txt
+
+run: all
+	./$(TARGET)

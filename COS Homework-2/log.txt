@@ -1,0 +1,18 @@
+[1746955869443] Initial Stock: [product 0: 5, product 1: 5, product 2: 5]
+[1746955869443] Customer 1 tried to add product 1 (qty: 1) to cart | Stock: [product 0: 5, product 1: 4, product 2: 5] // succeed
+[1746955869444] Customer 1 tried to add product 0 (qty: 2) to cart | Stock: [product 0: 3, product 1: 4, product 2: 5] // succeed
+[1746955869444] Customer 2 tried to add product 0 (qty: 1) to cart | Stock: [product 0: 2, product 1: 4, product 2: 5] // succeed
+[1746955869444] Customer 1 attempted to purchase product 1 (qty: 1) | Stock: [product 0: 2, product 1: 4, product 2: 5]
+[1746955869444] Customer 1 attempted to purchase product 0 (qty: 2) | Stock: [product 0: 2, product 1: 4, product 2: 5]
+[1746955869444] Customer 2 attempted to purchase product 0 (qty: 1) | Stock: [product 0: 2, product 1: 4, product 2: 5]
+[1746955869444] Customer 2 couldn't purchase product 0 (qty: 1) and had to wait! (maximum number of concurrent payments reached!)
+[1746955869446] Customer 1 purchased product 1 (qty: 1) | Stock: [product 0: 2, product 1: 4, product 2: 5]
+[1746955869451] Customer 1 purchased product 0 (qty: 2) | Stock: [product 0: 2, product 1: 4, product 2: 5]
+[1746955869460] Customer 2 purchased product 0 (qty: 1) | Stock: [product 0: 2, product 1: 4, product 2: 5]
+[1746955869616] Customer 3 tried to add product 0 (qty: 3) but only 2 available // failed
+[1746955869616] Customer 4 tried to add product 0 (qty: 1) to cart | Stock: [product 0: 1, product 1: 4, product 2: 5] // succeed
+[1746955869616] Customer 4 attempted to purchase product 0 (qty: 1) | Stock: [product 0: 1, product 1: 4, product 2: 5]
+[1746955869627] Customer 4 purchased product 0 (qty: 1) | Stock: [product 0: 1, product 1: 4, product 2: 5]
+[1746955869779] Customer 5 tried to add product 2 (qty: 2) to cart | Stock: [product 0: 1, product 1: 4, product 2: 3] // succeed
+[1746955869779] Customer 5 attempted to purchase product 2 (qty: 2) | Stock: [product 0: 1, product 1: 4, product 2: 3]
+[1746955879784] Customer 5 could not purchase product 2 (qty: 2) in time. Timeout expired! Returned to stock.
